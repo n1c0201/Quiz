@@ -1,0 +1,18 @@
+a) Parent Class = Spell
+   Child Class = Accio, Confundo
+b)
+spell.execute() will print out 'Accio', however the other commands will cause an error
+since they are class methods and not regular functions they need to be called with a variable
+that has the class which has the class method defined to it. No variable is also assigned to the Confundo
+class which makes it impossible to access the class methods inside the Confundo class.
+c)
+no get_description method is called, since it is a class method, calling the function immediately
+without a variable that has the class with the class method defined to it will cause an error
+since class methods can't be regulary accessed outside the class. However if the code would be fixed the
+get_description method of the Confundo class would be called, this is because both the parent and the child
+class have the same class method, the program will prioritise getting the class method from the child class first.
+d)
+add a class method into Accio class called get_description with a parameter of self (get_description(self))
+in the class method, add the following code, 
+return('This charm summons an object to the caster, potentially over a significant distance').
+The indentation of the Confundo class should also be fixed
