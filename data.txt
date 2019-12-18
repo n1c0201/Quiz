@@ -1,0 +1,10 @@
+S0001#Jason#Manager#12000000
+S0002#Gardyan#Manager#15000000
+S0003#Bently#Officer#8500000
+S0004#Aric#Officer#8250000
+S0005#Bryan#Officer#8000000
+S0006#Jeremy#Officer#7750000
+S0007#Kevin#Staff#6500000
+S0008#Eric#Staff#6250000
+S0009#Vincent#Staff#6000000
+S0010#Jocelyn#Staff#5750000
